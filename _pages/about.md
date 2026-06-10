@@ -16,10 +16,24 @@ I am an M.Eng. candidate in Computer Technology at the University of Science and
 
 I have worked on inference acceleration and serving-system optimization across Tencent, ByteDance, and Huawei 2012 Laboratories. My recent projects involve adapting Hunyuan Image inference pipelines to vLLM/vLLM-Omni, optimizing NCCL AllReduce bottlenecks in tensor-parallel inference, and designing heterogeneous CPU-GPU collaborative inference architectures.
 
-Contact 📫: `xuduo_iat@mail.ustc.edu.cn`  
-Phone 📱: `(+86) 173-9830-8282`  
-GitHub 🐙: [https://github.com/blackwargreymonX](https://github.com/blackwargreymonX)  
-Resume 📄: [PDF](/files/resume_xuduo.pdf)
+<div class="topic-chips">
+  <span class="topic-chip topic-chip--blue">LLM Inference Systems</span>
+  <span class="topic-chip topic-chip--yellow">vLLM Serving</span>
+  <span class="topic-chip topic-chip--green">Communication Overlap</span>
+  <span class="topic-chip topic-chip--purple">Heterogeneous Inference</span>
+  <span class="topic-chip topic-chip--rose">Multimodal Generation</span>
+  <span class="topic-chip topic-chip--teal">Performance Optimization</span>
+</div>
+
+<p class="contact-line">
+  <strong>Contact 📫:</strong> <code>xuduo_iat@mail.ustc.edu.cn</code>
+  <span class="contact-separator"></span>
+  <strong>Phone 📱:</strong> <code>(+86) 173-9830-8282</code>
+  <span class="contact-separator"></span>
+  <strong>GitHub 🐙:</strong> <a href="https://github.com/blackwargreymonX">https://github.com/blackwargreymonX</a>
+  <span class="contact-separator"></span>
+  <strong>Resume 📄:</strong> <a href="/files/resume_xuduo.pdf">PDF</a>
+</p>
 
 <span class='anchor' id='news'></span>
 
@@ -43,7 +57,7 @@ Resume 📄: [PDF](/files/resume_xuduo.pdf)
 
 # Experience 💼
 
-<img src="/images/company-icons/tencent.svg" alt="Tencent logo" class="company-icon company-logo--wide"> **Tencent AI Infra, Project Up, Hunyuan Image Model Inference Acceleration, 2026.01 - 2026.06.**  
+![Hunyuan logo](/images/company-icons/hunyuan.png){: .company-icon .company-icon--hunyuan } **Tencent AI Infra, Project Up, Hunyuan Image Model Inference Acceleration, 2026.01 - 2026.06.**  
 Migrated Hunyuan Image 3.0 inference to `vLLM 0.11.0` for reinforcement-learning-oriented training scenarios, covering model loading, request construction, generation parameter passing, output parsing, and service interface adaptation. Adapted the Hunyuan Image 3.5 text generation module to `vLLM 0.19.0`, refactoring tokenizer/processor logic, sampling configurations, batched request handling, and serving interfaces for large-scale online generation.
 
 For image generation workloads, adapted the pipeline to `vLLM-Omni` to support complex multimodal inputs, long invocation chains, and image-related output processing. Used a plugin-style, non-intrusive adaptation strategy to reduce maintenance costs while completing accuracy alignment and end-to-end service integration.
@@ -62,10 +76,21 @@ Designed an asymmetric pipeline that alternates two mixed-computation batches ac
 
 # Publications 📚
 
-- **Heterogeneous Collaborative Inference Architecture for Large Language Models**  
-  **Duo Xu**, Kunpeng Xu, Li Li. Submitted to ICPADS 2026. First author.
-- **When Overlap Hurts: Closed-Form Scheduling Theory for Tensor-Parallel LLM Inference**  
-  Kunpeng Xu, **Duo Xu**, Yuchen Wang, Li Li. Submitted to EMNLP 2026. Co-first author.
+<div class="publication-list">
+  <article class="publication-card">
+    <h3>Heterogeneous Collaborative Inference Architecture for Large Language Models</h3>
+    <p><strong>Duo Xu</strong>, Kunpeng Xu, Li Li. <span class="author-role">First author</span></p>
+    <p>University of Science and Technology of China.</p>
+    <p><span class="venue-badge venue-badge--blue">ICPADS 2026</span> <span class="pub-dot">·</span> <strong>Submitted</strong></p>
+  </article>
+
+  <article class="publication-card">
+    <h3>When Overlap Hurts: Closed-Form Scheduling Theory for Tensor-Parallel LLM Inference</h3>
+    <p>Kunpeng Xu, <strong>Duo Xu</strong>, Yuchen Wang, Li Li. <span class="author-role">Co-first author</span></p>
+    <p>University of Science and Technology of China.</p>
+    <p><span class="venue-badge venue-badge--purple">EMNLP 2026</span> <span class="pub-dot">·</span> <strong>Submitted</strong></p>
+  </article>
+</div>
 
 <span class='anchor' id='skills'></span>
 
